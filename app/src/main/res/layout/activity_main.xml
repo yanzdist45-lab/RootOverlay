@@ -1,0 +1,8 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="24dp" android:gravity="center">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Root Overlay" android:textSize="26sp" android:layout_marginBottom="24dp"/>
+    <Button android:id="@+id/root" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Check Root"/>
+    <Button android:id="@+id/permission" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Overlay Permission"/>
+    <Button android:id="@+id/start" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Start Overlay"/>
+    <Button android:id="@+id/stop" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Stop Overlay"/>
+    <TextView android:id="@+id/status" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingTop="20dp"/>
+</LinearLayout>
